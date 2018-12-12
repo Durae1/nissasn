@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pkgfinal;
+package javaapplication9;
+import java.util.Arrays;
 
 /**
  *
  * @author lewic
  */
-public class nissan {
-class car { 
-    public int passengers;
+public class Nissan {
+     public int passengers;
     //amount of passengerts tis vehicle can hold
     public int horsePower;
     //amount of stock horsepower
@@ -24,10 +24,39 @@ class car {
     public String engine;
     //the motor in the vehicle
 }   
-    public static void main(String[]args){ 
-        car firstCar;
-        firstCar = new nissanS14();
+class ArrayAverage {
+  public static void main(String[] args) {
         
-    System.out.println("Nissan S14 passengers: " + nissanS14.passengers);
-    
-    }
+
+
+
+// declares an array of integers
+        double[] anArray;
+        
+        anArray = new double[5];
+        //allocates memory for 5 doubles
+        anArray[0] = 6.5;
+        //first array double
+        anArray[1] = 7.5;
+        //second array double
+        anArray[2] = 7.2;
+        //third array double
+        anArray[3] = 6.8;
+        //fourth array double
+        anArray[4] = 6.6;
+        //fifth array double
+System.out.println("Zero to Sixty time: "
+                           + anArray[0]);
+        System.out.println("Zero to Sixty time: "
+                           + anArray[1]);
+        System.out.println("Zero to Sixty time: "
+                           + anArray[2]);
+        System.out.println("Zero to Sixty time: "
+                           + anArray[3]);
+        System.out.println("Zero to Sixty time: "
+                           + anArray[4]);
+        
+  }
+  
+}
+
